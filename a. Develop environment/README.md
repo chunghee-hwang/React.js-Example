@@ -1,6 +1,6 @@
 ## Create react app 설치
 
-### react 환경 구축
+### React.js 환경 구축
 1. node.js 설치
 
 2. npx로 react app 환경 구축
