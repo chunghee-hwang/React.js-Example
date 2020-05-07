@@ -1,4 +1,4 @@
-## b. JS, CSS, distribute
+## b. JS, CSS, deploy
 
 #### JS 작성
 index.js를 살펴보면 다음 코드가 있다.
