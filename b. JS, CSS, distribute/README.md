@@ -38,6 +38,8 @@ class App extends Component
 export default App;
 ```
 
+<hr />
+
 #### CSS 작성
 앱 전체를 관장하고 있는 index.html의 디자인을 수정하려면 index.css를 수정하면 된다.
 
@@ -52,6 +54,8 @@ App.js<br>
 ```javascript
 import './App.css';
 ```
+
+<hr />
 
 #### 배포하기(deploy)
 ```shell
