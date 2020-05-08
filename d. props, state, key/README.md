@@ -30,6 +30,9 @@ class Subject extends Component {
 ```
 
 #### [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)을 통해 본 컴포넌트의 Props
+
+props를 변경하고 Enter를 누르면, 실시간으로 값을 변경할 수도 있다.
+
 <p align="center">
   <img src="./props.png" >
 </p>
