@@ -12,7 +12,12 @@ class App extends Component {
 
     //state: 내부적으로 사용하는 값.
     this.state = {
-      subject:{title: 'WEB', sub: 'World Wide Web!'}
+      subject:{title: 'WEB', sub: 'World Wide Web!'},
+      contents: [
+        {id: 1, title: 'HTML', desc: 'HTML is HyperText markup Language'},
+        {id: 2, title: 'CSS', desc: 'CSS is for design'},
+        {id: 3, title: 'JavaScript', desc: 'JavaScript is for interactive'}
+      ]
     }
   }
   render() {
@@ -21,8 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <Subject title={this.state.subject.title} sub={this.state.subject.sub}/>
-        <Subject title="React" sub="For UI"/>
-        <TOC/>
+        <TOC contents={this.state.contents}/>
         <Content title="HTML" desc="HTML is HyperText markup Language"/>
       </div>
     );

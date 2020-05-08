@@ -66,3 +66,25 @@ class App extends Component {
   };
 }
 ```
+
+## key
+Key는 React가 어떤 항목을 변경, 추가 또는 삭제할지 식별하는 것을 돕는다. 보통 리스트 태그에 명시한다.
+```javascript
+class TOC extends Component {
+    render() {
+      let list = []
+      // key : React.js는 리스트 태그에 key를 요청한다.
+      // 자바스크립트 코드는 반드시 {}안에 입력한다.
+      this.props.contents.forEach(content=>{
+        list.push(<li key={content.id}><a href={`/content/${content.id}`}>{content.title}</a></li>)
+      })
+      return (
+        <nav>
+          <ul>
+            {list}
+          </ul>
+        </nav>
+      );
+    }
+  }
+```
