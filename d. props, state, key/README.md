@@ -1,7 +1,7 @@
 # d. props, state, key
 
 ## props
-props는 html의 attribute 값을 동적으로 변경할 수 있도록 하는 값이다.
+props는 html의 attribute 값을 동적으로 변경할 수 있도록 하는 값이다.<br>
 다시 말해, 상위 컴포넌트에서 하위 컴포넌트로 값을 전달할 수 있다.
 ```javascript
 class App extends Component {
@@ -66,6 +66,7 @@ class App extends Component {
   };
 }
 ```
+<hr />
 
 ## key
 Key는 React가 어떤 항목을 변경, 추가 또는 삭제할지 식별하는 것을 돕는다. 보통 리스트 태그에 명시한다.
