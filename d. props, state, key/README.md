@@ -28,3 +28,8 @@ class Subject extends Component {
 }
 
 ```
+
+#### [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)을 통해 본 컴포넌트의 Props
+<p align="center">
+  <img src="./props.png" >
+</p>
