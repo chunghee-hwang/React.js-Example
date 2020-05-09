@@ -171,7 +171,9 @@ class Subject extends Component
 ### dataset
 태그의 dataset을 설정할 수 있다.<br>
 ```javascript
-<태그명 data-data이름={데이터}>
+<태그명 data-data이름={값}></태그명>
+
+console.log(event.target.dataset.data이름) // 값 출력
 ```
 ```javascript
 // a 태그에 dataset.id를 1로 설정한다.
