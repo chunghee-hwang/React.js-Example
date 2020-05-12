@@ -11,6 +11,11 @@ cd my-app
 npm start
 ```
 
+3. 여러가지 설정하기
+```
+npm run eject
+```
+
 ### [npm vs npx](https://geonlee.tistory.com/32)
 <b>npm</b>은 node.js의 모듈을 컴퓨터의 로컬에 저장하고, 모듈의 버전이 높아지면 사용자가 직접 모듈을 삭제하고 다시 설치해야한다.
 
