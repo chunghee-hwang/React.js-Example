@@ -2,7 +2,9 @@
 
 ## props
 props는 html의 attribute 값을 동적으로 변경할 수 있도록 하는 값이다.<br>
-다시 말해, 상위 컴포넌트에서 하위 컴포넌트로 값을 전달할 수 있다.
+다시 말해, 상위 컴포넌트에서 하위 컴포넌트로 값을 전달할 수 있다.<br>
+부모 컴포넌트가 가지고 있는 props는 수정할 수 있는 반면, 자식 컴포넌트가 받은 props는 read-only이다.<br>
+수정할 수 없다.
 ```javascript
 class App extends Component {
   render() {
@@ -43,8 +45,9 @@ props를 변경하고 Enter를 누르면, 실시간으로 값을 변경할 수�
 ## state
 props : 컴포넌트를 이용하는 사용자 및 개발자에게 중요한 값들<br>
 state: 외부에서 알아서는 안 되는 컴포넌트 내부에서 사용되는 값들<br>
-철저히 props와 분리되서 사용된다.
-
+철저히 props와 분리되서 사용된다.<br>
+this.setStatus()로 변경할 수 있다.<br>
+state 변경은 비동기적으로 처리된다.
 ```javascript
 class App extends Component {
   // 생성자: render 함수가 실행되기 전 state를 초기화
