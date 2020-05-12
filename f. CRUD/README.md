@@ -10,7 +10,7 @@ create, update 작업 시에는 a 태그로 새로운 링크로
 
 
 ## Component.shouldComponentUpdate()
-컴포넌트의 render 함수는 자신이랑 아무런 상관이 없는 state가 변경되었을 때도
+컴포넌트의 render 함수는 자신이랑 아무런 상관이 없는 state, props가 변경되었을 때도
 호출이된다. 이는 성능 저하의 원인이 될 수 있다.<br>
 Component.shouldComponentUpdate()을 사용하면 render 함수가 실행되는 조건을 설정 할 수 있다.<br>
 render함수 전에 호출되며, render 함수가 호출되야하면 true, 아니라면 false 반환.
