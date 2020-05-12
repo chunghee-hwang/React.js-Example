@@ -151,7 +151,7 @@ class UpdateContent extends Component {
 [] 문법을 사용하여 받을 수 있다.
 ```javascript
 func(name){
-  let obj = {[name]: e.target.value}
+  let obj = {[name]: 'hwang'};
 }
 ```
 
