@@ -4,10 +4,13 @@
 Create, Read, Update, Delete 작업을 말한다.<br>
 React에서 Event, Props, State, Component를 이용하여 해당 기능들을 구현할 수 있다.
 
+<hr />
+
 ## delete 작업 시 주의할 점
 create, update 작업 시에는 a 태그로 새로운 링크로
 어떤 작업을 요청할 수 있으나, delete 작업은 웬만하면 버튼으로 구현하고 링크를 걸지 않는 것이 데이터무결성을 지킬 수 있다.
 
+<hr />
 
 ## Component.shouldComponentUpdate()
 컴포넌트의 render 함수는 자신이랑 아무런 상관이 없는 state, props가 변경되었을 때도
@@ -65,6 +68,8 @@ this.setState({contents});
 렌더링할 지 말지 결정하는 작업에 문제가 생기게된다.<br>
 왜냐하면 원본 배열이 바뀌었으니 새로 바뀐 배열과 이전 배열의 차이가 없기 때문이다.<br>
 결국 렌더링이 되지 않는다. 따라서 복제본을 수정하는 concat을 사용하는 것이 옳다.
+
+
 
 ## 원본이 변하지 않는 연산(immutable), 복사 연산
 concat 대신 push를 꼭 사용해야한다면 다음과 같이 배열을 복제할 수도 있다.
@@ -140,6 +145,8 @@ class UpdateContent extends Component {
   }
 ```
 
+<hr />
+
 ##  객체의 key값을 파라미터로 받고싶을 때
 [] 문법을 사용하여 받을 수 있다.
 ```javascript
@@ -147,6 +154,9 @@ func(name){
   let obj = {[name]: e.target.value}
 }
 ```
+
+
+<hr />
 
 ## 그 밖에 공부할 것들
 1. immutable.js
