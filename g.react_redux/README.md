@@ -6,7 +6,7 @@
 만약 컴포넌트간 Depth가 1억 개 이상이라면 props를 통해서 1억 번 전달해야한다. 이는 매우 불편하다.<br>
 해결책: 모든 데이터를 중앙에서 관리하는 리덕스를 사용하자!
 
-<img src="https://miro.medium.com/max/1000/1*zTXY3OfZm5nreThL4lnu4A.png">
+<img src="https://miro.medium.com/max/1000/1*zTXY3OfZm5nreThL4lnu4A.png" width="100%">
 
 ## store.js 모습
 ```javascript
