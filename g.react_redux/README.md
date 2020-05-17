@@ -8,6 +8,23 @@
 
 <img src="https://miro.medium.com/max/1000/1*zTXY3OfZm5nreThL4lnu4A.png">
 
+## store.js 모습
+```javascript
+import { createStore } from 'redux';
+// Redux.createStore(redux)의 구조와 똑같다.
+export default createStore((state, action) => {
+    if(!state){
+        return {number: 0};
+    }
+    if(action.type === 'INCREMENT'){
+        // ...: state를 immutable한 값으로 만들기 위해 복사한다.
+        return {...state, number: state.number + action.size};
+    }
+    return state;
+    },window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+```
+
 ## Redux와 React-redux
 redux만으로 충분히 중앙 데이터 시스템을 구현할 수 있지만,<br>
 react-redux를 이용해서 react와 더 친밀하고 사고를 적게 해주는 프로젝트를 개발할 수 있다.
