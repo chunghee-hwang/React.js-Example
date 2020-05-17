@@ -11,7 +11,8 @@
 ## store.js 모습
 ```javascript
 import { createStore } from 'redux';
-// Redux.createStore(redux)의 구조와 똑같다.
+// Redux.createStore(reducer)의 구조와 똑같다.
+// 인자: 이전의 state, dispatch를 통해 넘어온 action({type, payload}) 객체
 export default createStore((state, action) => {
     if(!state){
         return {number: 0};
