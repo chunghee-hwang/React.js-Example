@@ -19,6 +19,25 @@ npm install react-redux
 
 ### React-Redux의 connect API
 
+#### store를 Provider를 통해 모든 컴포넌트에서 사용할 수 있게 하기
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import store from './store'
+// provider는 store를 provider의 모든 하위 컴포넌트에게 제공하는 역할을 한다.
+// 즉 store를 import를 할 필요가 없게 한다.
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
+```
+
 #### connect 함수
 connect는 리덕스와 컴포넌트를 연결해주는 함수다.<br>
 연결이라는 말보다 컴포넌트를 감싼다는 표현이 정확하다.
