@@ -1,7 +1,7 @@
 # React.js-Example
 
-본 레포지토리는<br>
-생활코딩님의 [React](https://www.youtube.com/watch?v=XMb0w3KMw00&list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi)<br>
+본 레포지토리는 생활코딩님의<br>
+[React](https://www.youtube.com/watch?v=XMb0w3KMw00&list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi)<br>
 [React Redux](https://www.youtube.com/watch?v=fkNdsUVBksw&list=PLuHgQVnccGMDuVdsGtH1_452MtRxALb_7)<br>
 [React Ajax](https://www.youtube.com/watch?v=5suKe4QxkjI&list=PLuHgQVnccGMDVTrQYa2HRj1OBbT-4HU_v)<br>
 [React Router](https://www.youtube.com/watch?v=WLdbsl9UwDc&list=WL&index=4&t=0s)<br>
