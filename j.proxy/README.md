@@ -1,7 +1,5 @@
 # 프록시
 
-## 기존 개발 환경의 문제점
-
 <img src="./proxy.png" alt="proxy map" title="프록시 동작 원리"></img>
 
 React를 사용하면 개발자는 React Dev Server와 백엔드(Django, Apache, php...)의 두 개의 서버를 사용하게 된다.<br>
@@ -10,7 +8,7 @@ React를 사용하면 개발자는 React Dev Server와 백엔드(Django, Apache,
 로그인 작업을 백엔드에 구현을 해놨다면, 클라이언트에서 로그인 요청을 하면 백엔드 측에서 토큰이 담긴 쿠키를 전달한다. 그런데 클라이언트 측에서 사용자 정보를 요청할 때 8000번 포트가 아닌 3000번 포트로 잘못 요청할 시, 백엔드는 사용자를 다른 사용자로 오인한다.<br> 
 이 것을 해결하는 것이 Proxy이다.
 
-## 설정
+## 리액트 앱에 프록시 설정
 
 프록시를 설정하기 전 AJAX 통신을 할 때 아래와 같이 요청해야만 한다.
 
@@ -18,6 +16,7 @@ React를 사용하면 개발자는 React Dev Server와 백엔드(Django, Apache,
 fetch('http://localhost:8000/api_path');
 ```
 package.json에 다음과 같이 입력한다.
+React Dev Server가 Proxy Server가 되도록 바꾼다.
 ```json
 {
     "proxy": "http://localhost:8000", 
@@ -53,4 +52,4 @@ npx local-web-server json_파일이_있는_폴더_경로
 ```
 
 ## React Dev Server와 백엔드 서버가 실행된 모습.
-<img src="./react_dev.png" width="50%"></img><img src="./backend.png" width="50%"></img>
+<img src="./react_dev.png" width="100%"></img><br><img src="./backend.png" width="100%"></img>
