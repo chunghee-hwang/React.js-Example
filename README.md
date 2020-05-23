@@ -30,4 +30,4 @@ html 코드와 javascript 코드를 객체지향적으로 묶어서 하나의 �
 [7. React-Redux](./g.react_redux/)<br>
 [8. 리액트와 AJAX](./h.react_ajax/)<br>
 [9. 리액트 라우터 돔](./i.react_router_dom/)<br>
-[9. 프록시 서버](./j.proxy/)<br>
+[10. 프록시 서버](./j.proxy/)<br>
