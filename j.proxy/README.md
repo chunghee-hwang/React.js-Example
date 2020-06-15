@@ -36,7 +36,7 @@ fetch('/api_path');
 로 날리면 실제로 요청 URL은 localhost:3000/api_path 가 되며
 이 요청을 React Dev Server가 받는다.<br>
 React Dev Server가 api_path라는 정보가 없다는 것을 알면, <br>
-package.json에 적혀있는 proxy를 확인하고 해당하는 3000번 포트의 서버에 접속한다.
+package.json에 적혀있는 proxy를 확인하고 해당하는 8000번 포트의 서버에 접속한다.
 요청한 데이터를 백엔드 서버가 React Dev Server에게 주면<br>
 React Dev Server가 클라이언트에게 응답을 대신(=Proxy) 해준다.<br>
 대신 해준다는 뜻의 Proxy와 Server가 합쳐져 대신 응답을 하는 서버를 Proxy Server라고 한다.<br>
