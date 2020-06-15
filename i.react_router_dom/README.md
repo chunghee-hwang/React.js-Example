@@ -13,7 +13,7 @@ npm install react-router-dom
 ## [Route](https://reacttraining.com/react-router/web/api/Route)
 ```javascript
 <a href="/something">To Something</a>
-<Route path="/something"><해당 URL일 때 보여질 컴포넌트 /><Route>
+<Route path="/something"><해당 URL일 때 보여질 컴포넌트 /></Route>
 ```
 
 ## [Route > Exact](https://reacttraining.com/react-router/web/api/Route/exact-bool)
