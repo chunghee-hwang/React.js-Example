@@ -158,6 +158,16 @@ func(name){
 
 <hr />
 
+## 결과 화면
+
+### Create
+
+<img src="./screenshot/create.png"></img>
+
+### Update
+
+<img src="./screenshot/update.png"></img>
+
 ## 그 밖에 공부할 것들
 1. immutable.js
 2. redux
