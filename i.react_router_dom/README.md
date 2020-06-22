@@ -28,7 +28,7 @@ link: http://localhost:3000/topics<br>
 해결법: exact를 추가하면 정확하게 URL이 맞는 것만 보인다.<br>
 ```javascript
 //index.js
-import { BrowserRouter, Route } from "react-router";
+import { BrowserRouter, Route } from "react-router-dom";
 //...
 <Route exact path="/one">
   <About />
@@ -48,7 +48,7 @@ Switch 태그 안에 있는 Route 태그들의 path들을 순차탐색하며,<br
 URL이 "/contact"고 맨 위에 있는 Route 태그의 path가 "/"라면<br>
 path는 "/"에 걸리게 된다. exact일 경우에는 안걸린다.<br>
 ```javascript
-import { Route, Switch } from "react-router";
+import { Route, Switch } from "react-router-dom";
 let routes = (
   <Switch>
     <Route exact path="/">
