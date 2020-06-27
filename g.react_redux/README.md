@@ -1,6 +1,7 @@
 # g. 리액트 리덕스
 
-리덕스 학습 레포지토리: [링크](https://github.com/hch0821/Redux-Example)
+선행 공부해야할 목록은 다음과 같습니다.<br>
+* [리덕스](https://github.com/hch0821/Redux-Example)
 
 ## 컴포넌트간 props와 state를 이용해 값을 전달하면
 만약 컴포넌트간 Depth가 1억 개 이상이라면 props를 통해서 1억 번 전달해야한다. 이는 매우 불편하다.<br>
