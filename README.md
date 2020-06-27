@@ -6,7 +6,7 @@
 [React Ajax](https://www.youtube.com/watch?v=5suKe4QxkjI&list=PLuHgQVnccGMDVTrQYa2HRj1OBbT-4HU_v)<br>
 [React Router Dom](https://www.youtube.com/watch?v=WLdbsl9UwDc&list=WL&index=4&t=0s)<br>
 [React Proxy](https://www.youtube.com/watch?v=VaAWIAxvj0A)<br>
-를 코드와 문서로 정리한 것입니다.
+그리고 [리덕스 미들웨어와 외부 데이터 연동 - redux-saga](https://redux-advanced.vlpt.us/2/05.html) 문서를 코드와 문서로 정리한 것입니다.
 
 ### React.js의 장점
 
@@ -31,3 +31,4 @@ html 코드와 javascript 코드를 객체지향적으로 묶어서 하나의 �
 [8. 리액트와 AJAX](./h.react_ajax/)<br>
 [9. 리액트 라우터 돔](./i.react_router_dom/)<br>
 [10. 프록시 서버](./j.proxy/)<br>
+[11. 리덕스 사가](./k.redux_saga/)<br>
