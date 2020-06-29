@@ -33,7 +33,7 @@ put({type: 'INCREMENT'});
 ```javascript
 delay(100);
 ```
-* takeEvery: 특정 액션을 감시하다가 발생하면 특정 함수를 발생시킨다. 중요한 점은 액션이 끝난 뒤 실행되는 게 아니라, 실행되자마자 발동된다. 즉, state를 변경하기 전 비즈니스 로직을 실행할 수 있다.
+* takeEvery: 특정 액션을 감시하다가 발생하면 특정 함수를 발생시킨다.
 ```javascript
 function* incrementAsyncSaga() {
     yield put(increment());
@@ -67,10 +67,10 @@ export function* rootSaga() {
 ```javascript
 import { /*delay, */put, takeEvery } from 'redux-saga/effects'; // 앞에서 살펴본 이펙트
 import { handleActions, createAction } from 'redux-actions';
-const INCREMENT = 'INCREMENT'; // 나이 증가
-const DECREMENT = 'DECREMENT'; // 나이 감소
-const INCREMENT_ASYNC = 'INCREMENT_ASYNC'; //나이 증가 비동기 처리
-const DECREMENT_ASYNC = 'DECREMENT_ASYNC'; //나이 감소 비동기 처리
+const INCREMENT = 'INCREMENT'; // 숫자 증가
+const DECREMENT = 'DECREMENT'; // 숫자 감소
+const INCREMENT_ASYNC = 'INCREMENT_ASYNC'; //숫자 증가 비동기 처리
+const DECREMENT_ASYNC = 'DECREMENT_ASYNC'; //숫자 감소 비동기 처리
 ```
 ▲ 액션 이름을 정의한 부분이다.
 <br>
