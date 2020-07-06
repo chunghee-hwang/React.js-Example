@@ -15,6 +15,7 @@ redux-saga 에서는 [Generator](https://wonism.github.io/javascript-generator/)
 
 ## 모듈 설치
 ```bash
+npm i redux --save # 리덕스
 npm i react-redux --save # 리액트 리덕스
 npm i redux-saga --save # 리덕스 사가
 npm i redux-actions --save # 리덕스 액션
