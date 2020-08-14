@@ -41,6 +41,10 @@ npm install react-app-polyfill --save
 
 ```
 
+### 다른 폴리필 방법
+* babel로 코드 변환
+https://babeljs.io/setup#installation
+
 #### node_modules 갱신
 node_modules 폴더를 지우고
 ```
